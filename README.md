@@ -10,3 +10,6 @@ Within the file is a class, named `ReadSQL`, which contains a method `read_sql_f
 After all steps are completed, the method returns a pandas dataframe, with which you can work onwards.
 
 You can then import this class as a module to your working files, and escape the routine of writing the same code all over again.
+
+`test_read_files.py` contains an example of how you can apply the `ReadSQL` class to successfully read in a table from a database. Additionally, 
+there is a showcase of data manipulation with Pandas, with the data that was collected via the Yandex Metrika API.
